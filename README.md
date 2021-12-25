@@ -1,11 +1,26 @@
 # logdebug.vim
+## Easily debug javascript files by console logging
 
-Things the plugin need to do
-1. Should work only for typescript and javascript files
-2. *cl should put the word under cursor in a `console.log({word under cursor})` in the next line.
-3. cl should expand to `console.log`
-4. cl1 should expand to console.log("------------log1------------")
-5. cl2 should expand to console.log("------------log2------------")
-6. cl3 should expand to console.log("------------log3------------")
-7. and so on.
+Simple plugin to wrap word under cursor in console log and add log statements to track the program exection.
+
+## Installation
+When using vim plug, place the following snippet in your ~/.vimrc
+```vim
+call plug#begin()
+
+Plug 'RakshithNM/logdebug.vim'
+
+call plug#end()
+```
+Then source the file using `:so %`
+
+After that run `:PlugInstall`
+
+## Usage
+In normal mode, place cursor on a word you want to wrap in console log statement and press `cl`.
+
+To add log statements to track the program exection, place cursor on a line above the line where you want the console log and press l1, l2, l3... etc to get corresposding console logs.
+
+Check documentation for more info `:help logdebug`
+
 
