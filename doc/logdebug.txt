@@ -1,0 +1,70 @@
+*logdebug.txt* easily debug javascript and typescript files by console logging
+
+██╗      ██████╗  ██████╗ ██████╗ ███████╗██████╗ ██╗   ██╗ ██████╗ 
+██║     ██╔═══██╗██╔════╝ ██╔══██╗██╔════╝██╔══██╗██║   ██║██╔════╝ 
+██║     ██║   ██║██║  ███╗██║  ██║█████╗  ██████╔╝██║   ██║██║  ███╗
+██║     ██║   ██║██║   ██║██║  ██║██╔══╝  ██╔══██╗██║   ██║██║   ██║
+███████╗╚██████╔╝╚██████╔╝██████╔╝███████╗██████╔╝╚██████╔╝╚██████╔╝
+╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝ ╚══════╝╚═════╝  ╚═════╝  ╚═════╝ 
+
+Easily debug javascript and typescript files by console logging
+Includes mappings to wrap word under cursor in console.log and additionaly generate log statements
+
+
+====================================================================
+CONTENTS                                          *LogDebugContents*
+
+1. Usage                                             |LogDebugUsage|
+2. Mappings                                          |LogDebugMappings|
+3. License                                           |LogDebugLicense|
+4. Bugs                                              |LogDebugBugs|
+5. Contributing                                      |LogDebugContributing|
+7. Credits                                           |LogDebugCredits|
+
+====================================================================
+Section 1: Usage                                     *LogDebugUsage*
+
+This plugin helps in easily adding console log statement for log
+degbugging javascript and typescript files.
+
+====================================================================
+Section 2: Mappings                               *LogDebugMappings*
+
+The plugin features mappings for:
+
+1. Wrap word under cusor in console log
+2. Add logging statements
+
+Example mappings
+
+nnoremap cl <Plug>LogDebugCL
+nnoremap l0 <Plug>LogDebugLog0
+nnoremap l1 <Plug>LogDebugLog1
+nnoremap l2 <Plug>LogDebugLog2
+nnoremap l3 <Plug>LogDebugLog3
+nnoremap l4 <Plug>LogDebugLog4
+nnoremap l5 <Plug>LogDebugLog5
+nnoremap l6 <Plug>LogDebugLog6
+nnoremap l7 <Plug>LogDebugLog7
+nnoremap l8 <Plug>LogDebugLog8
+nnoremap l9 <Plug>LogDebugLog9
+
+====================================================================
+Section 3: License                                 *LogDebugLicense*
+
+Same as vim.
+
+====================================================================
+Section 4: Bugs                                       *LogDebugBugs*
+
+Unknown. Yet.
+
+====================================================================
+Section 5: Contributing                       *LogDebugContributing*
+
+Open a issue or send a pull request on Github.
+
+====================================================================
+Section 7: Credits                                 *LogDebugCredits*
+
+All credits to Rakshith Bellare. https://rakshithbellare.in
