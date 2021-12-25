@@ -1,11 +1,11 @@
-nnoremap <buffer> <Plug>LogDebugCL :call b:wrapWordUnderCursorConsoleLog()<CR>
-nnoremap <buffer> <Plug>LogDebugLog0 :call b:log(0)<CR>
-nnoremap <buffer> <Plug>LogDebugLog1 :call b:log(1)<CR>
-nnoremap <buffer> <Plug>LogDebugLog2 :call b:log(2)<CR>
-nnoremap <buffer> <Plug>LogDebugLog3 :call b:log(3)<CR>
-nnoremap <buffer> <Plug>LogDebugLog4 :call b:log(4)<CR>
-nnoremap <buffer> <Plug>LogDebugLog5 :call b:log(5)<CR>
-nnoremap <buffer> <Plug>LogDebugLog6 :call b:log(6)<CR>
-nnoremap <buffer> <Plug>LogDebugLog7 :call b:log(7)<CR>
-nnoremap <buffer> <Plug>LogDebugLog8 :call b:log(8)<CR>
-nnoremap <buffer> <Plug>LogDebugLog9 :call b:log(9)<CR>
+nnoremap <Plug>LogDebugCL :call logdebug#wrap_word_under_cursor_console_log()<CR>
+nnoremap <Plug>LogDebugLog0 :call logdebug#log(0)<CR>
+nnoremap <Plug>LogDebugLog1 :call logdebug#log(1)<CR>
+nnoremap <Plug>LogDebugLog2 :call logdebug#log(2)<CR>
+nnoremap <Plug>LogDebugLog3 :call logdebug#log(3)<CR>
+nnoremap <Plug>LogDebugLog4 :call logdebug#log(4)<CR>
+nnoremap <Plug>LogDebugLog5 :call logdebug#log(5)<CR>
+nnoremap <Plug>LogDebugLog6 :call logdebug#log(6)<CR>
+nnoremap <Plug>LogDebugLog7 :call logdebug#log(7)<CR>
+nnoremap <Plug>LogDebugLog8 :call logdebug#log(8)<CR>
+nnoremap <Plug>LogDebugLog9 :call logdebug#log(9)<CR>
