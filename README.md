@@ -17,7 +17,7 @@ Then source the file using `:so %`
 After that run `:PlugInstall`
 
 ## Usage
-In normal mode, place cursor on a word you want to wrap in console log statement and press `cl`.
+In normal mode, place cursor on a word/variable you want to wrap in console log statement and press `cl`.
 
 To add log statements to track the program exection, place cursor on a line above the line where you want the console log and press l1, l2, l3... etc to get corresposding console logs.
 
